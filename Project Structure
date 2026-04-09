@@ -1,0 +1,30 @@
+llm-financial-analyst/
+│
+├── agents/
+│   ├── orchestrator.py
+│   ├── analyst_agent.py
+│   ├── debate_agents.py
+│
+├── tools/
+│   ├── parser.py
+│   ├── financial_ratios.py
+│   ├── sec_loader.py
+│
+├── prompts/
+│   ├── extraction.txt
+│   ├── narrative.txt
+│   ├── validation.txt
+│   ├── signal.txt
+│
+├── memory/
+│   ├── vector_store.py
+│
+├── pipelines/
+│   ├── full_analysis.py
+│
+├── schemas/
+│   ├── output_schema.json
+│
+├── app.py
+├── requirements.txt
+└── README.md
